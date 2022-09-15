@@ -9,6 +9,8 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v3
+    - name: Print XCODES
+      run: ls -n /Applications/ | grep Xcode*
     - name: Build
       working-directory: ./OmniLogic
       run: swift build -v
