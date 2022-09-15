@@ -8,7 +8,7 @@
 import Foundation
 
 public extension OGAliens {
-    var getImageKey: String {
+    var imageKey: String {
         switch self {
         case .diamondhead:
             return getImageFromAssets(imageKey: .diamondhead)

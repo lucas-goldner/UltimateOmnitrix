@@ -1,14 +1,15 @@
 //
-//  ContentView.swift
+//  OGAlienWatch.swift
 //  ultimate-omnitrix Watch App
 //
 //  Created by Lucas Goldner on 14.09.22.
 //
 
+import Combine
 import OmniLogic
 import SwiftUI
 
-struct ContentView: View {
+struct OGAlienWatch: View {
     @StateObject private var ooOGAlienWatch = OGAlienWatchOO()
 
     var body: some View {
@@ -26,7 +27,7 @@ struct ContentView: View {
 
             Image(OGAliens(
                 rawValue: Int(ooOGAlienWatch.scrollAmount))?
-                .getImageKey ?? "")
+                .imageKey ?? "")
                 .resizable()
                 .padding(.all, 40)
                 .aspectRatio(contentMode: .fit)
@@ -38,7 +39,7 @@ struct ContentView: View {
         .digitalCrownRotation(
             self.$ooOGAlienWatch.scrollAmount,
             from: 0,
-            through: 10,
+            through: ooOGAlienWatch.alienLimit,
             by: 1,
             sensitivity: .low,
             isContinuous: false,
@@ -49,6 +50,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        OGAlienWatch()
     }
 }
