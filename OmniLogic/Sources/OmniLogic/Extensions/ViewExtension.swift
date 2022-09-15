@@ -1,6 +1,6 @@
 //
-//  View.swift
-//  
+//  ViewExtension.swift
+//
 //
 //  Created by Lucas Goldner on 15.09.22.
 //

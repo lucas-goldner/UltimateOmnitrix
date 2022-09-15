@@ -1,5 +1,5 @@
-import XCTest
 @testable import OmniLogic
+import XCTest
 
 final class OmniLogicTests: XCTestCase {
     func testExample() throws {
