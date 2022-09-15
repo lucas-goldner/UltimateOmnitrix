@@ -6,16 +6,33 @@
 //
 
 import SwiftUI
+import OmniLogic
 
 struct ContentView: View {
+    @State var scrollAmount = 0.0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, omnitrix!")
+        ZStack {
+            Image(getImageFromAssets(imageKey: ImageKeys.watchface))
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .rotationEffect(.degrees(scrollAmount*90))
+            Image(OGAliens(rawValue: Int(scrollAmount))?.getImageKey ?? "")
+                .resizable()
+                .padding(.all, 45)
+                .aspectRatio(contentMode: .fit)
+            
         }
-        .padding()
+        .focusable(true)
+        .digitalCrownRotation(
+            self.$scrollAmount,
+            from: 0,
+            through: 9,
+            by: 1,
+            sensitivity: .low,
+            isContinuous: false,
+            isHapticFeedbackEnabled: true
+        )
     }
 }
 
