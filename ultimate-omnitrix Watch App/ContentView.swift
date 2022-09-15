@@ -20,7 +20,7 @@ struct ContentView: View {
         }
         .focusable(true)
         .digitalCrownRotation(
-            $scrollAmount,
+            self.$scrollAmount,
             from: 0,
             through: 9,
             by: 1,
