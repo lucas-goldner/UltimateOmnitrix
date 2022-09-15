@@ -17,6 +17,11 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .rotationEffect(.degrees(scrollAmount*90))
+            Image("\(OGAliens(rawValue: Int(scrollAmount))!)")
+                          .resizable()
+                          .padding(.all, 45)
+                          .aspectRatio(contentMode: .fit)
+
         }
         .focusable(true)
         .digitalCrownRotation(
