@@ -8,6 +8,7 @@
 import Foundation
 
 public enum OGAliens: Int {
+    case none
     case diamondhead
     case cannonbolt
     case xlr8
@@ -43,6 +44,8 @@ public extension OGAliens {
             return getImageFromAssets(imageKey: .wildmutt)
         case .stinkfly:
             return getImageFromAssets(imageKey: .stinkfly)
+        case .none:
+            return ""
         }
     }
 }

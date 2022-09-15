@@ -13,6 +13,8 @@
 		4D01A35C28D278770023DDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D01A35B28D278770023DDAC /* Assets.xcassets */; };
 		4D01A35F28D278770023DDAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D01A35E28D278770023DDAC /* Preview Assets.xcassets */; };
 		4D01A37028D29FF10023DDAC /* OmniLogic in Frameworks */ = {isa = PBXBuildFile; productRef = 4D01A36F28D29FF10023DDAC /* OmniLogic */; };
+		4D69D5D128D3851700F42453 /* WatchRhombi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D69D5D028D3851700F42453 /* WatchRhombi.swift */; };
+		4D69D5D328D3872400F42453 /* WatchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D69D5D228D3872400F42453 /* WatchBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4D01A35B28D278770023DDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D01A35E28D278770023DDAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D01A36D28D29F640023DDAC /* OmniLogic */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = OmniLogic; sourceTree = "<group>"; };
+		4D69D5D028D3851700F42453 /* WatchRhombi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRhombi.swift; sourceTree = "<group>"; };
+		4D69D5D228D3872400F42453 /* WatchBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				4D01A35928D278750023DDAC /* ContentView.swift */,
 				4D01A35B28D278770023DDAC /* Assets.xcassets */,
 				4D01A35D28D278770023DDAC /* Preview Content */,
+				4D69D5D028D3851700F42453 /* WatchRhombi.swift */,
+				4D69D5D228D3872400F42453 /* WatchBackground.swift */,
 			);
 			path = "ultimate-omnitrix Watch App";
 			sourceTree = "<group>";
@@ -229,7 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D01A35A28D278750023DDAC /* ContentView.swift in Sources */,
+				4D69D5D128D3851700F42453 /* WatchRhombi.swift in Sources */,
 				4D01A35828D278750023DDAC /* UltimateOmnitrixApp.swift in Sources */,
+				4D69D5D328D3872400F42453 /* WatchBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

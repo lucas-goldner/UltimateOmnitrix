@@ -15,19 +15,24 @@ struct ContentView: View {
         ZStack {
             Image(getImageFromAssets(imageKey: ImageKeys.watchface))
                 .resizable()
-                .aspectRatio(contentMode: .fill)
+                .aspectRatio(contentMode: .fit)
                 .rotationEffect(.degrees(scrollAmount*90))
+            
+            WatchBackground(scrollAmount: $scrollAmount)
+            
             Image(OGAliens(rawValue: Int(scrollAmount))?.getImageKey ?? "")
                 .resizable()
-                .padding(.all, 45)
+                .padding(.all, 40)
                 .aspectRatio(contentMode: .fit)
+            
+            WatchRhombi(scrollAmount: $scrollAmount)
             
         }
         .focusable(true)
         .digitalCrownRotation(
             self.$scrollAmount,
             from: 0,
-            through: 9,
+            through: 10,
             by: 1,
             sensitivity: .low,
             isContinuous: false,
