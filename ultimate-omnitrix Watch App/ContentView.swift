@@ -13,15 +13,15 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Image("Watchface")
+            Image(getImageFromAssets(imageKey: ImageKeys.watchface))
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .rotationEffect(.degrees(scrollAmount*90))
-            Image("\(OGAliens(rawValue: Int(scrollAmount))!)")
-                          .resizable()
-                          .padding(.all, 45)
-                          .aspectRatio(contentMode: .fit)
-
+            Image(OGAliens(rawValue: Int(scrollAmount))?.getImageKey ?? "")
+                .resizable()
+                .padding(.all, 45)
+                .aspectRatio(contentMode: .fit)
+            
         }
         .focusable(true)
         .digitalCrownRotation(
