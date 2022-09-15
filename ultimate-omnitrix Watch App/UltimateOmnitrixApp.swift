@@ -11,7 +11,7 @@ import SwiftUI
 struct UltimateOmnitrixApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OGAlienWatch()
         }
     }
 }

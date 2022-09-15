@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		4D01A35328D278750023DDAC /* ultimate-omnitrix Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D01A35228D278750023DDAC /* ultimate-omnitrix Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4D01A35828D278750023DDAC /* UltimateOmnitrixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D01A35728D278750023DDAC /* UltimateOmnitrixApp.swift */; };
-		4D01A35A28D278750023DDAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D01A35928D278750023DDAC /* ContentView.swift */; };
+		4D01A35A28D278750023DDAC /* OGAlienWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D01A35928D278750023DDAC /* OGAlienWatch.swift */; };
 		4D01A35C28D278770023DDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D01A35B28D278770023DDAC /* Assets.xcassets */; };
 		4D01A35F28D278770023DDAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D01A35E28D278770023DDAC /* Preview Assets.xcassets */; };
 		4D01A37028D29FF10023DDAC /* OmniLogic in Frameworks */ = {isa = PBXBuildFile; productRef = 4D01A36F28D29FF10023DDAC /* OmniLogic */; };
+		4D69D5D128D3851700F42453 /* WatchRhombi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D69D5D028D3851700F42453 /* WatchRhombi.swift */; };
+		4D69D5D328D3872400F42453 /* WatchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D69D5D228D3872400F42453 /* WatchBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +45,12 @@
 		4D01A34C28D278750023DDAC /* ultimate-omnitrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ultimate-omnitrix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D01A35228D278750023DDAC /* ultimate-omnitrix Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ultimate-omnitrix Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D01A35728D278750023DDAC /* UltimateOmnitrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateOmnitrixApp.swift; sourceTree = "<group>"; };
-		4D01A35928D278750023DDAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D01A35928D278750023DDAC /* OGAlienWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGAlienWatch.swift; sourceTree = "<group>"; };
 		4D01A35B28D278770023DDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D01A35E28D278770023DDAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D01A36D28D29F640023DDAC /* OmniLogic */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = OmniLogic; sourceTree = "<group>"; };
+		4D69D5D028D3851700F42453 /* WatchRhombi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRhombi.swift; sourceTree = "<group>"; };
+		4D69D5D228D3872400F42453 /* WatchBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +87,8 @@
 		4D01A35628D278750023DDAC /* ultimate-omnitrix Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				4D69D5D528D3BE4300F42453 /* OGAlienWatch */,
 				4D01A35728D278750023DDAC /* UltimateOmnitrixApp.swift */,
-				4D01A35928D278750023DDAC /* ContentView.swift */,
 				4D01A35B28D278770023DDAC /* Assets.xcassets */,
 				4D01A35D28D278770023DDAC /* Preview Content */,
 			);
@@ -104,6 +108,16 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D69D5D528D3BE4300F42453 /* OGAlienWatch */ = {
+			isa = PBXGroup;
+			children = (
+				4D01A35928D278750023DDAC /* OGAlienWatch.swift */,
+				4D69D5D028D3851700F42453 /* WatchRhombi.swift */,
+				4D69D5D228D3872400F42453 /* WatchBackground.swift */,
+			);
+			path = OGAlienWatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +148,7 @@
 				4D01A34F28D278750023DDAC /* Frameworks */,
 				4D01A35028D278750023DDAC /* Resources */,
 				4D69D5CF28D3522C00F42453 /* ShellScript */,
+				4D69D5D428D3BA0B00F42453 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -206,6 +221,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		4D69D5CF28D3522C00F42453 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -221,6 +237,24 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		4D69D5D428D3BA0B00F42453 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftformat >/dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -228,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D01A35A28D278750023DDAC /* ContentView.swift in Sources */,
+				4D01A35A28D278750023DDAC /* OGAlienWatch.swift in Sources */,
+				4D69D5D128D3851700F42453 /* WatchRhombi.swift in Sources */,
 				4D01A35828D278750023DDAC /* UltimateOmnitrixApp.swift in Sources */,
+				4D69D5D328D3872400F42453 /* WatchBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +330,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -346,10 +384,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
