@@ -11,7 +11,7 @@ import Foundation
 extension SoundPlay {
     func playSound(named name: String) {
         guard let url = Bundle.main.url(forResource: name, withExtension: "mp3") else {
-            fatalError("Unable to find sound file \(name).mp3")
+            fatalError("Unable")
         }
 
         try? audioplayer = AVAudioPlayer(contentsOf: url)
