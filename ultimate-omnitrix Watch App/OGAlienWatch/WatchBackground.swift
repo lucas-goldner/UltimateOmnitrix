@@ -14,7 +14,9 @@ struct WatchBackground: View {
     var body: some View {
         Rectangle()
             .frame(width: 110, height: 110)
-            .foregroundColor(Color(red: 0.73, green: 0.93, blue: 0.33, opacity: scrollAmount == 0 ? 0 : 1))
+            .foregroundColor(
+                Color.omniGreen.opacity(
+                    scrollAmount == 0 ? 0 : 1))
             .rotationEffect(.degrees(45))
             .scaleEffect(x: 0.6, y: 1)
             .mask(Circle().scaleEffect(x: 1, y: 1.05))
@@ -24,6 +26,8 @@ struct WatchBackground: View {
 
 struct WatchBackground_Previews: PreviewProvider {
     static var previews: some View {
-        WatchBackground(scrollAmount: .constant(0.0))
+        WatchBackground(
+            scrollAmount: .constant(0.0)
+        )
     }
 }

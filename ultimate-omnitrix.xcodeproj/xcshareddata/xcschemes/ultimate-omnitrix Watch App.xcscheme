@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4D01A35128D278750023DDAC"
-               BuildableName = "ultimate-omnitrix Watch App.app"
+               BuildableName = "Ultimate Omnitrix.app"
                BlueprintName = "ultimate-omnitrix Watch App"
                ReferencedContainer = "container:ultimate-omnitrix.xcodeproj">
             </BuildableReference>
@@ -69,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D01A35128D278750023DDAC"
-            BuildableName = "ultimate-omnitrix Watch App.app"
+            BuildableName = "Ultimate Omnitrix.app"
             BlueprintName = "ultimate-omnitrix Watch App"
             ReferencedContainer = "container:ultimate-omnitrix.xcodeproj">
          </BuildableReference>
@@ -86,7 +86,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D01A35128D278750023DDAC"
-            BuildableName = "ultimate-omnitrix Watch App.app"
+            BuildableName = "Ultimate Omnitrix.app"
             BlueprintName = "ultimate-omnitrix Watch App"
             ReferencedContainer = "container:ultimate-omnitrix.xcodeproj">
          </BuildableReference>

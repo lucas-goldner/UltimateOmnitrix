@@ -11,25 +11,25 @@ public extension OGAliens {
     var imageKey: String {
         switch self {
         case .diamondhead:
-            return getImageFromAssets(imageKey: .diamondhead)
+            return ImageKeys.diamondhead.rawValue
         case .ghostfreak:
-            return getImageFromAssets(imageKey: .ghostfreak)
+            return ImageKeys.ghostfreak.rawValue
         case .xlr8:
-            return getImageFromAssets(imageKey: .xlr8)
+            return ImageKeys.xlr8.rawValue
         case .fireblast:
-            return getImageFromAssets(imageKey: .fireblast)
+            return ImageKeys.fireblast.rawValue
         case .fourarms:
-            return getImageFromAssets(imageKey: .fourarms)
+            return ImageKeys.fourarms.rawValue
         case .graymatter:
-            return getImageFromAssets(imageKey: .graymatter)
+            return ImageKeys.graymatter.rawValue
         case .ripjaws:
-            return getImageFromAssets(imageKey: .ripjaws)
+            return ImageKeys.ripjaws.rawValue
         case .upgrade:
-            return getImageFromAssets(imageKey: .upgrade)
+            return ImageKeys.upgrade.rawValue
         case .wildmutt:
-            return getImageFromAssets(imageKey: .wildmutt)
+            return ImageKeys.wildmutt.rawValue
         case .stinkfly:
-            return getImageFromAssets(imageKey: .stinkfly)
+            return ImageKeys.stinkfly.rawValue
         case .none:
             return ""
         }
@@ -40,41 +40,41 @@ public extension OGAliensPlus {
     var imageKey: String {
         switch self {
         case .diamondhead:
-            return getImageFromAssets(imageKey: .diamondhead)
+            return ImageKeys.diamondhead.rawValue
         case .ghostfreak:
-            return getImageFromAssets(imageKey: .ghostfreak)
+            return ImageKeys.ghostfreak.rawValue
         case .xlr8:
-            return getImageFromAssets(imageKey: .xlr8)
+            return ImageKeys.xlr8.rawValue
         case .fireblast:
-            return getImageFromAssets(imageKey: .fireblast)
+            return ImageKeys.fireblast.rawValue
         case .fourarms:
-            return getImageFromAssets(imageKey: .fourarms)
+            return ImageKeys.fourarms.rawValue
         case .graymatter:
-            return getImageFromAssets(imageKey: .graymatter)
+            return ImageKeys.graymatter.rawValue
         case .ripjaws:
-            return getImageFromAssets(imageKey: .ripjaws)
+            return ImageKeys.ripjaws.rawValue
         case .upgrade:
-            return getImageFromAssets(imageKey: .upgrade)
+            return ImageKeys.upgrade.rawValue
         case .wildmutt:
-            return getImageFromAssets(imageKey: .wildmutt)
+            return ImageKeys.wildmutt.rawValue
         case .stinkfly:
-            return getImageFromAssets(imageKey: .stinkfly)
+            return ImageKeys.stinkfly.rawValue
         case .cannonbolt:
-            return getImageFromAssets(imageKey: .cannonbolt)
+            return ImageKeys.cannonbolt.rawValue
         case .ditto:
-            return getImageFromAssets(imageKey: .ditto)
+            return ImageKeys.ditto.rawValue
         case .frankenstrike:
-            return getImageFromAssets(imageKey: .frankenstrike)
+            return ImageKeys.frankenstrike.rawValue
         case .snareoh:
-            return getImageFromAssets(imageKey: .snareoh)
+            return ImageKeys.snareoh.rawValue
         case .upchuck:
-            return getImageFromAssets(imageKey: .upchuck)
+            return ImageKeys.upchuck.rawValue
         case .waybig:
-            return getImageFromAssets(imageKey: .waybig)
+            return ImageKeys.waybig.rawValue
         case .wildvine:
-            return getImageFromAssets(imageKey: .wildvine)
+            return ImageKeys.wildvine.rawValue
         case .blitzwolfer:
-            return getImageFromAssets(imageKey: .blitzwolfer)
+            return ImageKeys.blitzwolfer.rawValue
         case .none:
             return ""
         }

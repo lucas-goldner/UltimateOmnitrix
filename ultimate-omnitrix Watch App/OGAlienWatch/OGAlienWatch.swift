@@ -14,16 +14,18 @@ struct OGAlienWatch: View {
 
     var body: some View {
         ZStack {
-            Image(
-                getImageFromAssets(
-                    imageKey: ImageKeys.watchface))
+            Image(ImageKeys.watchface.rawValue)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .rotationEffect(.degrees(
                     ooOGAlienWatch.scrollAmount * 90))
 
             WatchBackground(
-                scrollAmount: $ooOGAlienWatch.scrollAmount)
+                scrollAmount: $ooOGAlienWatch.scrollAmount
+            )
+            .onTapGesture {
+                ooOGAlienWatch.transform()
+            }
 
             Image(OGAliens(
                 rawValue: Int(ooOGAlienWatch.scrollAmount))?
@@ -33,7 +35,8 @@ struct OGAlienWatch: View {
                 .aspectRatio(contentMode: .fit)
 
             WatchRhombi(
-                scrollAmount: $ooOGAlienWatch.scrollAmount)
+                scrollAmount: $ooOGAlienWatch.scrollAmount
+            )
         }
         .focusable(true)
         .digitalCrownRotation(
@@ -48,7 +51,7 @@ struct OGAlienWatch: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct OGAlienWatch_Previews: PreviewProvider {
     static var previews: some View {
         OGAlienWatch()
     }
