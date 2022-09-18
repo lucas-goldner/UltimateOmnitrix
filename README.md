@@ -1,9 +1,9 @@
 
-# Ultimate Omnitrix App
+# Zehner (Ultimate Omnitrix App)
 
 [![Test Omnilogic](https://github.com/lucas-goldner/UltimateOmnitrix/actions/workflows/omnilogic.yml/badge.svg)](https://github.com/lucas-goldner/UltimateOmnitrix/actions/workflows/omnilogic.yml)
 
-This omnitrix app is supposed to be the ultimate one. Even more ultimate then the ultimatrix!
+This omnitrix app is supposed to be the ultimate one. Even more ultimate then the ultimatrix! Before the project was called Ultimate Omnitrix App, but because of Apple I need to rename it to something else.
 
 ![App Screenshot](https://i.pinimg.com/originals/ee/b7/99/eeb799fb56585ae1c77b9929c038ab24.gif)
 Woah
