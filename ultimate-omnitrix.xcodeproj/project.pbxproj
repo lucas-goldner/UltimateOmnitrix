@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D01A35328D278750023DDAC /* Ultimate Omnitrix.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D01A35228D278750023DDAC /* Ultimate Omnitrix.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D01A35328D278750023DDAC /* Zehner.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D01A35228D278750023DDAC /* Zehner.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4D01A35828D278750023DDAC /* UltimateOmnitrixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D01A35728D278750023DDAC /* UltimateOmnitrixApp.swift */; };
 		4D01A35A28D278750023DDAC /* OGAlienWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D01A35928D278750023DDAC /* OGAlienWatch.swift */; };
 		4D01A35C28D278770023DDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D01A35B28D278770023DDAC /* Assets.xcassets */; };
@@ -48,7 +48,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				4D01A35328D278750023DDAC /* Ultimate Omnitrix.app in Embed Watch Content */,
+				4D01A35328D278750023DDAC /* Zehner.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,7 +57,7 @@
 
 /* Begin PBXFileReference section */
 		4D01A34C28D278750023DDAC /* ultimate-omnitrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ultimate-omnitrix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D01A35228D278750023DDAC /* Ultimate Omnitrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ultimate Omnitrix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D01A35228D278750023DDAC /* Zehner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zehner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D01A35728D278750023DDAC /* UltimateOmnitrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateOmnitrixApp.swift; sourceTree = "<group>"; };
 		4D01A35928D278750023DDAC /* OGAlienWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGAlienWatch.swift; sourceTree = "<group>"; };
 		4D01A35B28D278770023DDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				4D01A34C28D278750023DDAC /* ultimate-omnitrix.app */,
-				4D01A35228D278750023DDAC /* Ultimate Omnitrix.app */,
+				4D01A35228D278750023DDAC /* Zehner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 				4D01A36F28D29FF10023DDAC /* OmniLogic */,
 			);
 			productName = "ultimate-omnitrix Watch App";
-			productReference = 4D01A35228D278750023DDAC /* Ultimate Omnitrix.app */;
+			productReference = 4D01A35228D278750023DDAC /* Zehner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -463,7 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"ultimate-omnitrix Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = MGA58Y526H;
 				ENABLE_PREVIEWS = YES;
@@ -474,9 +474,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.ultimate.omnitrix.watchkitapp";
-				PRODUCT_NAME = "Ultimate Omnitrix";
+				PRODUCT_NAME = Zehner;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -492,7 +492,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"ultimate-omnitrix Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = MGA58Y526H;
 				ENABLE_PREVIEWS = YES;
@@ -503,9 +503,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.ultimate.omnitrix.watchkitapp";
-				PRODUCT_NAME = "Ultimate Omnitrix";
+				PRODUCT_NAME = Zehner;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
