@@ -474,7 +474,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.ultimate.omnitrix.watchkitapp";
 				PRODUCT_NAME = "Ultimate Omnitrix";
 				SDKROOT = watchos;
@@ -503,7 +503,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.ultimate.omnitrix.watchkitapp";
 				PRODUCT_NAME = "Ultimate Omnitrix";
 				SDKROOT = watchos;
@@ -525,7 +525,7 @@
 				DEVELOPMENT_TEAM = MGA58Y526H;
 				INFOPLIST_KEY_CFBundleDisplayName = "ultimate-omnitrix";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.ultimateomnitrix";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.ultimate.omnitrix";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -541,7 +541,7 @@
 				DEVELOPMENT_TEAM = MGA58Y526H;
 				INFOPLIST_KEY_CFBundleDisplayName = "ultimate-omnitrix";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.ultimateomnitrix";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.ultimate.omnitrix";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
