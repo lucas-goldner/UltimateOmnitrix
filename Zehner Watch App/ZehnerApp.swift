@@ -1,6 +1,6 @@
 //
-//  UltimateOmnitrixApp.swift
-//  ultimate-omnitrix Watch App
+//  Zehner.swift
+//  Zehner Watch App
 //
 //  Created by Lucas Goldner on 14.09.22.
 //
@@ -9,7 +9,7 @@ import OmniLogic
 import SwiftUI
 
 @main
-struct UltimateOmnitrixApp: App {
+struct ZehnerApp: App {
     @StateObject private var ooConfig = ConfigOO()
     @State private var selectedWatch: String
     private var userDefault = StoredValues()
