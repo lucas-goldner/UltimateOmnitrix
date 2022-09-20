@@ -1,3 +1,3 @@
 # OmniLogic
 
-A description of this package.
+This package containt all business logic for the watch app.

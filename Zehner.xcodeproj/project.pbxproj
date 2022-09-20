@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D01A35328D278750023DDAC /* Zehner.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D01A35228D278750023DDAC /* Zehner.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4D01A35828D278750023DDAC /* UltimateOmnitrixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D01A35728D278750023DDAC /* UltimateOmnitrixApp.swift */; };
+		4D01A35828D278750023DDAC /* ZehnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D01A35728D278750023DDAC /* ZehnerApp.swift */; };
 		4D01A35A28D278750023DDAC /* OGAlienWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D01A35928D278750023DDAC /* OGAlienWatch.swift */; };
 		4D01A35C28D278770023DDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D01A35B28D278770023DDAC /* Assets.xcassets */; };
 		4D01A35F28D278770023DDAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D01A35E28D278770023DDAC /* Preview Assets.xcassets */; };
@@ -56,9 +56,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D01A34C28D278750023DDAC /* ultimate-omnitrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ultimate-omnitrix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D01A34C28D278750023DDAC /* Zehner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zehner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D01A35228D278750023DDAC /* Zehner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zehner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D01A35728D278750023DDAC /* UltimateOmnitrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateOmnitrixApp.swift; sourceTree = "<group>"; };
+		4D01A35728D278750023DDAC /* ZehnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZehnerApp.swift; sourceTree = "<group>"; };
 		4D01A35928D278750023DDAC /* OGAlienWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGAlienWatch.swift; sourceTree = "<group>"; };
 		4D01A35B28D278770023DDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D01A35E28D278770023DDAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				4D01A36D28D29F640023DDAC /* OmniLogic */,
-				4D01A35628D278750023DDAC /* ultimate-omnitrix Watch App */,
+				4D01A35628D278750023DDAC /* Zehner Watch App */,
 				4D01A34D28D278750023DDAC /* Products */,
 				4D01A36E28D29FF10023DDAC /* Frameworks */,
 			);
@@ -106,23 +106,23 @@
 		4D01A34D28D278750023DDAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D01A34C28D278750023DDAC /* ultimate-omnitrix.app */,
+				4D01A34C28D278750023DDAC /* Zehner.app */,
 				4D01A35228D278750023DDAC /* Zehner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D01A35628D278750023DDAC /* ultimate-omnitrix Watch App */ = {
+		4D01A35628D278750023DDAC /* Zehner Watch App */ = {
 			isa = PBXGroup;
 			children = (
 				4DBD57B628D522AC000C6A42 /* Audio */,
 				4D69D5D528D3BE4300F42453 /* OGAlienWatch */,
-				4D01A35728D278750023DDAC /* UltimateOmnitrixApp.swift */,
+				4D01A35728D278750023DDAC /* ZehnerApp.swift */,
 				4D01A35B28D278770023DDAC /* Assets.xcassets */,
 				4D01A35D28D278770023DDAC /* Preview Content */,
 				4DBD57CF28D54984000C6A42 /* ConfigView.swift */,
 			);
-			path = "ultimate-omnitrix Watch App";
+			path = "Zehner Watch App";
 			sourceTree = "<group>";
 		};
 		4D01A35D28D278770023DDAC /* Preview Content */ = {
@@ -173,9 +173,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D01A34B28D278750023DDAC /* ultimate-omnitrix */ = {
+		4D01A34B28D278750023DDAC /* Zehner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D01A36628D278770023DDAC /* Build configuration list for PBXNativeTarget "ultimate-omnitrix" */;
+			buildConfigurationList = 4D01A36628D278770023DDAC /* Build configuration list for PBXNativeTarget "Zehner" */;
 			buildPhases = (
 				4D01A34A28D278750023DDAC /* Resources */,
 				4D01A36528D278770023DDAC /* Embed Watch Content */,
@@ -185,14 +185,14 @@
 			dependencies = (
 				4D01A35528D278750023DDAC /* PBXTargetDependency */,
 			);
-			name = "ultimate-omnitrix";
+			name = Zehner;
 			productName = "ultimate-omnitrix";
-			productReference = 4D01A34C28D278750023DDAC /* ultimate-omnitrix.app */;
+			productReference = 4D01A34C28D278750023DDAC /* Zehner.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		4D01A35128D278750023DDAC /* ultimate-omnitrix Watch App */ = {
+		4D01A35128D278750023DDAC /* Zehner Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D01A36228D278770023DDAC /* Build configuration list for PBXNativeTarget "ultimate-omnitrix Watch App" */;
+			buildConfigurationList = 4D01A36228D278770023DDAC /* Build configuration list for PBXNativeTarget "Zehner Watch App" */;
 			buildPhases = (
 				4D01A34E28D278750023DDAC /* Sources */,
 				4D01A34F28D278750023DDAC /* Frameworks */,
@@ -204,7 +204,7 @@
 			);
 			dependencies = (
 			);
-			name = "ultimate-omnitrix Watch App";
+			name = "Zehner Watch App";
 			packageProductDependencies = (
 				4D01A36F28D29FF10023DDAC /* OmniLogic */,
 			);
@@ -230,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D01A34928D278750023DDAC /* Build configuration list for PBXProject "ultimate-omnitrix" */;
+			buildConfigurationList = 4D01A34928D278750023DDAC /* Build configuration list for PBXProject "Zehner" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -243,8 +243,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D01A34B28D278750023DDAC /* ultimate-omnitrix */,
-				4D01A35128D278750023DDAC /* ultimate-omnitrix Watch App */,
+				4D01A34B28D278750023DDAC /* Zehner */,
+				4D01A35128D278750023DDAC /* Zehner Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -328,7 +328,7 @@
 				4D01A35A28D278750023DDAC /* OGAlienWatch.swift in Sources */,
 				4D6DFDD328D4052100819E5F /* OGAlienWatchPlus.swift in Sources */,
 				4D69D5D128D3851700F42453 /* WatchRhombi.swift in Sources */,
-				4D01A35828D278750023DDAC /* UltimateOmnitrixApp.swift in Sources */,
+				4D01A35828D278750023DDAC /* ZehnerApp.swift in Sources */,
 				4D69D5D328D3872400F42453 /* WatchBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,7 +338,7 @@
 /* Begin PBXTargetDependency section */
 		4D01A35528D278750023DDAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4D01A35128D278750023DDAC /* ultimate-omnitrix Watch App */;
+			target = 4D01A35128D278750023DDAC /* Zehner Watch App */;
 			targetProxy = 4D01A35428D278750023DDAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -463,8 +463,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_ASSET_PATHS = "\"ultimate-omnitrix Watch App/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zehner Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = MGA58Y526H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -474,8 +474,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.ultimate.omnitrix.watchkitapp";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.zehner.watchkitapp";
 				PRODUCT_NAME = Zehner;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -492,8 +492,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_ASSET_PATHS = "\"ultimate-omnitrix Watch App/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zehner Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = MGA58Y526H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -503,8 +503,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.ultimate.omnitrix.watchkitapp";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.zehner.watchkitapp";
 				PRODUCT_NAME = Zehner;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -525,7 +525,7 @@
 				DEVELOPMENT_TEAM = MGA58Y526H;
 				INFOPLIST_KEY_CFBundleDisplayName = "ultimate-omnitrix";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.ultimate.omnitrix";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.zehner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -541,7 +541,7 @@
 				DEVELOPMENT_TEAM = MGA58Y526H;
 				INFOPLIST_KEY_CFBundleDisplayName = "ultimate-omnitrix";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.ultimate.omnitrix";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas-goldner.zehner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -552,7 +552,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D01A34928D278750023DDAC /* Build configuration list for PBXProject "ultimate-omnitrix" */ = {
+		4D01A34928D278750023DDAC /* Build configuration list for PBXProject "Zehner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D01A36028D278770023DDAC /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D01A36228D278770023DDAC /* Build configuration list for PBXNativeTarget "ultimate-omnitrix Watch App" */ = {
+		4D01A36228D278770023DDAC /* Build configuration list for PBXNativeTarget "Zehner Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D01A36328D278770023DDAC /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D01A36628D278770023DDAC /* Build configuration list for PBXNativeTarget "ultimate-omnitrix" */ = {
+		4D01A36628D278770023DDAC /* Build configuration list for PBXNativeTarget "Zehner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D01A36728D278770023DDAC /* Debug */,

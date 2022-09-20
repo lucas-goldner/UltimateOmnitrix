@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ultimate-omnitrix Watch App.xcscheme_^#shared#^_</key>
+		<key>Zehner App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4D01A34B28D278750023DDAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D01A35128D278750023DDAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
